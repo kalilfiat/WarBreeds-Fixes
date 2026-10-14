@@ -1,0 +1,12 @@
+{
+  "game_started": false,
+  "network_used": false,
+  "source": "file URI to actual verified qt2.zip (production WebClient and ZIP validation path)",
+  "checks": [
+    "all-13-extracted-hashes-match",
+    "dependency-only-profile-restores-exactly",
+    "wrong-archive-hash-aborts-before-game-writes"
+  ],
+  "external_https_availability": "not validated by this test",
+  "ok": true
+}

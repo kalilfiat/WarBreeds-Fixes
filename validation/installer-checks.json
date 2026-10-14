@@ -1,0 +1,23 @@
+{
+  "game_started": false,
+  "scope": "temporary clones and standalone helpers",
+  "variants_passed": 24,
+  "write_failure_cases_passed": 44,
+  "native_zoom_variants": 8,
+  "groups_passed": [
+    "24-real-feature-combinations-install-and-exact-restore; non-widescreen-keeps-prefs; only-selected-DLLs",
+    "full-stack-offline-runtime-CRT-and-idempotence",
+    "external-binary-edits-refused; prefs-and-shared-INI-edits-preserved; new-Export-overlay-sanitized; manual-config-backed-up",
+    "zoom-without-widescreen-refused",
+    "unknown-game-edition-refused-before-mutation",
+    "altered-patch-package-refused-before-mutation",
+    "unknown-QuickTime-file-refused-before-mutation",
+    "all-install-write-and-state-commit-failures-roll-back",
+    "restore-write-failures-roll-back-including-state-commit",
+    "missing-runtime-offline-refused-before-mutation",
+    "all-eight-zoom-variants-native-PE-map-with-no-entrypoint",
+    "public-archive-excludes-game-assets-personal-history-and-QuickTime-binaries",
+    "installed-game-files-unchanged-by-packaging-and-tests"
+  ],
+  "ok": true
+}

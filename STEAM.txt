@@ -1,0 +1,42 @@
+[h1]WarBreeds Fixes: mejoras opcionales y reversibles[/h1]
+
+Prepare un paquete para la edicion Steam de WarBreeds en Windows. El
+instalador permite elegir cada mejora, incluido conservar el formato
+original de la partida si no queres 16:9.
+
+[list]
+[*]16:9 opcional, con partida a 1920x1080.
+[*]Animaciones del cursor y circulo de movimiento con velocidad corregida.
+[*]Hologramas y paneles decorativos con velocidad corregida.
+[*]Zoom con rueda por cambio de resolucion interna; requiere 16:9.
+[*]Peliculas ampliadas conservando sus proporciones originales.
+[*]Filtros CRT opcionales y filtros seleccionables con Shift+F11.
+[*]Reparacion de reproduccion de peliculas mediante dependencias locales.
+[/list]
+
+[b]Descarga:[/b] https://github.com/kalilfiat/WarBreeds-Fixes/releases/tag/v1.0.0
+[b]Version:[/b] 1.0.0
+
+Extraer todo el ZIP Public, cerrar el juego, ejecutar WarBreeds-Fixes.exe,
+elegir la carpeta del juego y marcar las opciones deseadas. No necesita
+Python. Para deshacer, usar Restaurar en el mismo instalador.
+Conservar la carpeta WarBreedsFixes que genera dentro del juego.
+
+El zoom puede producir un parpadeo negro breve: cambia la resolucion interna
+y tambien agranda la interfaz al acercar. Las cinematicas mantienen franjas
+porque sus formatos originales son muy anchos; no estan recortadas.
+
+Las mejoras fueron probadas por el usuario original. Se agradecen pruebas
+en otros equipos. El instalador verifica el ejecutable y rechaza ediciones
+distintas o instalaciones ya modificadas. No incluye archivos del juego,
+peliculas, mapas ni fondos de menu modificados.
+
+La dependencia QuickTime 2 se obtiene por separado si se selecciona reparar
+peliculas y faltan los componentes; el instalador verifica sus hashes.
+Consultar LEEME.txt para compatibilidad, opciones y detalles de restauracion.
+
+Proyecto no oficial. Para reportar problemas, indicar Windows, resolucion,
+edicion del juego y opciones elegidas.
+
+NOTA PARA EL AUTOR: compartir el ZIP Public y su hash. La copia
+Personal-Offline y los respaldos personales quedan locales.

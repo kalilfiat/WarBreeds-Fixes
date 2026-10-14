@@ -1,0 +1,37 @@
+THIRD-PARTY COMPONENTS / PROVENANCE
+
+DDrawCompat 0.7.0 by narzoul
+https://github.com/narzoul/DDrawCompat/releases/tag/v0.7.0
+License supplied in licenses/DDrawCompat-LICENSE.txt. No changes to ddraw.dll.
+SHA256: 7e4ed5c369cc31d00373d20aa4a747d9c19515e3d0e5095fdd325a43425a4fd9
+
+libretro common-shaders, crt-lottes.cg by Timothy Lottes
+https://github.com/libretro/common-shaders
+The shader header marks it public domain. Header and compatibility files
+are retained. WarBreeds presets change parameter values, not shader source.
+File-level notices in payload/common-shaders-master are retained.
+
+QuickTime 2 for Windows, runtime version 2.1.1.57
+Original Apple components; local compatibility package posted by crazyc in
+the DxWnd discussion. No redistribution license was found in the local
+package inventory. Therefore the PUBLIC archive does not bundle these files.
+Selecting movie playback repair acquires missing components from the recorded
+source and checks the archive plus every DLL/QTC hash before game changes.
+The personal offline archive preserves the locally used components.
+Source discussion:
+https://sourceforge.net/p/dxwnd/discussion/general/thread/c59ab7d5ad/?limit=25&page=1
+Exact package:
+https://sourceforge.net/p/dxwnd/discussion/general/thread/c59ab7d5ad/f4e3/5025/attachment/qt2.zip
+Archive SHA256:
+217d275fd664aaa96a15788f8deaefc124a4c663495537e5ae7824ab06ab0adb
+No system-wide player is installed or registered. If the source is unavailable,
+disable playback repair or provide the matching files in the runtime folder
+beside the installer; manifest.json records their names and hashes.
+
+WarBreeds and its original executable, data, movies, music and artwork remain
+the property of their respective owners and are not included in PUBLIC.
+Original-byte verification data and binary differences are used to apply
+only the selected local patches to the user's existing installation.
+
+Our installer and local helper/patch code: LICENSE.txt. That license does
+not replace notices or licenses belonging to dependencies or game assets.

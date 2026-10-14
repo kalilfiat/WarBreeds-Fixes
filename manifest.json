@@ -1,0 +1,361 @@
+{
+  "version": "1.0.0",
+  "originalSha256": "0e0768693a62ba89fcd5f1fd56dfcda68206d32bc6d5b5c285792996115061e3",
+  "originalLength": 1355264,
+  "variants": [
+    {
+      "mask": 0,
+      "file": "patches/00.wbdelta",
+      "patchSha256": "42d4d53397faa467f2ffa5fc0710fed26441992c75d2c5b5ed584f5bc06fa7d4",
+      "outputSha256": "0e0768693a62ba89fcd5f1fd56dfcda68206d32bc6d5b5c285792996115061e3",
+      "outputLength": 1355264
+    },
+    {
+      "mask": 1,
+      "file": "patches/01.wbdelta",
+      "patchSha256": "bbce24ea8493be6814d3c1f52acb930f4ae17e5bab815e6913a1456e47a40475",
+      "outputSha256": "821891f2c769f3582293f656cc2db6909965ae69e8df894bfb57e79b31ef7c44",
+      "outputLength": 1355264
+    },
+    {
+      "mask": 2,
+      "file": "patches/02.wbdelta",
+      "patchSha256": "4119059e0d983068df4283c14d5d764bd7a432f5ea1bcbb1a6a63d6441ecacec",
+      "outputSha256": "2b2bbf68e3565a10bc61611b6ff9d6c8ccecc6849b8e7247047ae3763eb0a4e4",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 3,
+      "file": "patches/03.wbdelta",
+      "patchSha256": "9fa9244e48a38fdf41a239f962a34512d7a9b879a678b4f17dd1878ccca2a096",
+      "outputSha256": "3eab1217cc2801c13cd9d637af4cfe12e10d91f734d4587f04c02db7fee21d8c",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 4,
+      "file": "patches/04.wbdelta",
+      "patchSha256": "b1fd43a8144f29b60a807efadd35e18045b189ee326b01d859a0fea42ebedc0f",
+      "outputSha256": "23135873efe3ff9513c1c629ad2ee27683a25a73d3b2bf2e2d4298e0d1848c6a",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 5,
+      "file": "patches/05.wbdelta",
+      "patchSha256": "fdf59b638572296d0f70db41c6ace2374074e6027e0011627c5c40f9f01804d7",
+      "outputSha256": "a8343905744c8f59ae387a0daaeee939c5c1d14f2253265021e0c1ebddc4c709",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 6,
+      "file": "patches/06.wbdelta",
+      "patchSha256": "596d3e6af8f62245c979bf0300a4914ad3e84d0c03891f5ddb53eb69285cde1a",
+      "outputSha256": "4fb5bc5f184fe6b1a7eb51d2a71d0414771b77c88f3077365e97d036305fea2e",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 7,
+      "file": "patches/07.wbdelta",
+      "patchSha256": "4b4ce71a0b2d808a1c5b70ee823f615230f0f50850d13a0f342ae68e8c374a3a",
+      "outputSha256": "aba8cf3da2f6db9fa73356ab325de42824512b01881968a88f0c4d8ffd2f54c5",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 9,
+      "file": "patches/09.wbdelta",
+      "patchSha256": "991d703b839efe17882698aae9f6a43adf41f15f79070d915b50df3c85dddcd1",
+      "outputSha256": "2fbeae68966f9730633caaeb747bfccee2e90bbcd8f1f965d1038d571a0b828b",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 11,
+      "file": "patches/11.wbdelta",
+      "patchSha256": "8f4b6952e43c411a33ac24bc77aca520ff4d8f7c7cd3035d6540ba5d2b4d81f8",
+      "outputSha256": "6a0b4083cfdfb9d24c2c31047818a6b39842c3f322f74426a096b6a921b425e4",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 13,
+      "file": "patches/13.wbdelta",
+      "patchSha256": "ab8eb13e2650c0962041f299118b79d7923e9f8ddb5160b6ad6859932a919d90",
+      "outputSha256": "83fb9f8478c58bdcf283e6d2201ee6f7e2fc3f319a2eaf588b2e226cd8aa358c",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 15,
+      "file": "patches/15.wbdelta",
+      "patchSha256": "b55d0a2c8a765fe1b105a4a4127ebb953b1078b173ff0e01cbdd195c70c5e78a",
+      "outputSha256": "a1942807a86b062413759b2dad5de6460adedb214a83034c2b95454c84cead4b",
+      "outputLength": 1542656
+    },
+    {
+      "mask": 16,
+      "file": "patches/16.wbdelta",
+      "patchSha256": "9c1831fa3a8b23678252c526a34308b88bac3edb705e249285d1b9700133a0b3",
+      "outputSha256": "5e115794f869fb19368a6b15481210bb85961663f625737cce2423cb63006806",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 17,
+      "file": "patches/17.wbdelta",
+      "patchSha256": "65666b2aa32435cc3806af6af41a381a178d3e3bd8c1ef6c4fee058b2276e21c",
+      "outputSha256": "841612397a979beaf4e54843e35a5ebe3794ea07c5cac98449c6c90d333d762d",
+      "outputLength": 1417728
+    },
+    {
+      "mask": 18,
+      "file": "patches/18.wbdelta",
+      "patchSha256": "1c251f7f608a74030b3af4cea73e7105f569e9260270e27dd4e9e01b64836f3a",
+      "outputSha256": "b3e84e1e7ac0082435d6f00d89c866d5f7e346781cf950e1a7ad8bd70ab4874d",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 19,
+      "file": "patches/19.wbdelta",
+      "patchSha256": "ec2f13d46a7d630ba7380410954a3e175e8997d5a27bd38964d88dbbb87b4ed5",
+      "outputSha256": "ddabff314ae86f3fd9e9576a39bae00e61e5207c7abeb9f46db2917d1d0f786a",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 20,
+      "file": "patches/20.wbdelta",
+      "patchSha256": "0aeac9b969671e626048f210bf1e7061408117c45555990d1ef4a90f2b3f0b96",
+      "outputSha256": "f4c43a170e70da71a6c0fa340a633daf01808cae32d284389b76c2b8cf4a63e6",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 21,
+      "file": "patches/21.wbdelta",
+      "patchSha256": "8a4fb73cab19301a0ef83da918ed0bdf1e99b18750c6c88043ceeaa01f651db5",
+      "outputSha256": "786ee3a298a94f78594c86d2d5db990e87005985ca21fcc915dee0e8357639f0",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 22,
+      "file": "patches/22.wbdelta",
+      "patchSha256": "6fb45885d5c73cada57a4520a92254d14fdc23f1e2f7026a7be77f73cf9b0f65",
+      "outputSha256": "7b52cb757541a300ca3a9cbff1234b7e87ebcd2ce1e1422cb77f38eaec0ce4b0",
+      "outputLength": 1543168
+    },
+    {
+      "mask": 23,
+      "file": "patches/23.wbdelta",
+      "patchSha256": "4b6a946d4f118a01b20c8172b63d4639ebd7f6a027e800d095d641b06e89634d",
+      "outputSha256": "f027b4e27c0560af621fd4d4fb0a66ec09b26bfed3ff9bad5e58d7fc11bcd006",
+      "outputLength": 1543168
+    },
+    {
+      "mask": 25,
+      "file": "patches/25.wbdelta",
+      "patchSha256": "8615a62058833bde81ed1a0c133e6d9f65dd05d11068b2063e3fd725ff0b9c8f",
+      "outputSha256": "35617ba8edbc4f1bd36110aabf1bc263d1d4e0cabab7badfd4dd17b98749e568",
+      "outputLength": 1480192
+    },
+    {
+      "mask": 27,
+      "file": "patches/27.wbdelta",
+      "patchSha256": "3d5329f83921fc0666da34734898a724b70b4f279a5a0b9e6445e7a7d61cf3f3",
+      "outputSha256": "a4b3e04be719ddc15bffea97cfa2cdd876a76ba368ad6f2948ac46d1703a8a14",
+      "outputLength": 1543168
+    },
+    {
+      "mask": 29,
+      "file": "patches/29.wbdelta",
+      "patchSha256": "d023343a81d4e64bf3a4d52b415bd7ecc555a307817f714a600360a309ff5ae5",
+      "outputSha256": "d364c3c506b586415d200c86b4bf75cea1280e4cc3325d2b1ac99432fb441d3c",
+      "outputLength": 1543168
+    },
+    {
+      "mask": 31,
+      "file": "patches/31.wbdelta",
+      "patchSha256": "55f8c8ff54daf0b9892cdaeead35cdeaa58aff1cd0fb19c7c495d01402ad8d8e",
+      "outputSha256": "1d09d029ecbc3bd410b633e22385063f0d1d79c2aa857b5df72d5d0ad855b695",
+      "outputLength": 1605632
+    }
+  ],
+  "files": [
+    {
+      "name": "WBAnim.dll",
+      "sha256": "75f1b3e65b3be9befedac2f29365ad72e37031d2834901bcd19bdf8aa22cb5b4",
+      "feature": 2,
+      "length": 85504
+    },
+    {
+      "name": "WBUIAnim.dll",
+      "sha256": "6e5b6fbca4713effcbf039447b9bee9c23ffb9fe8adca6240d1edcdae78abb03",
+      "feature": 4,
+      "length": 85504
+    },
+    {
+      "name": "WBZoom.dll",
+      "sha256": "c87bdf28f702fb1220d786ab03af39546356a1db31248442384716eff171b9bd",
+      "feature": 8,
+      "length": 115200
+    },
+    {
+      "name": "WBVideo.dll",
+      "sha256": "954fca83755d50d605b203d4b04d1f5fafc6c5d5b16164bdcfd3126028177359",
+      "feature": 16,
+      "length": 115200
+    },
+    {
+      "name": "ddraw.dll",
+      "sha256": "7e4ed5c369cc31d00373d20aa4a747d9c19515e3d0e5095fdd325a43425a4fd9",
+      "feature": 32,
+      "length": 3580928
+    },
+    {
+      "name": "common-shaders-master/compat_includes.inc",
+      "sha256": "94aec60cd565846a55f63a60fb5bec59cd0a352516c712908c8035231375d27b",
+      "feature": 32,
+      "length": 207
+    },
+    {
+      "name": "common-shaders-master/crt/crt-lottes.cgp",
+      "sha256": "f0efc8af6a343c9171839ac58c0c8f501dca1fda3eaae5aa982c8b191ebb6593",
+      "feature": 32,
+      "length": 120
+    },
+    {
+      "name": "common-shaders-master/crt/WarBreeds-CRT-Marcado.cgp",
+      "sha256": "4008e2494951e11660b1e701ef2bcd540ca63f831f66fbad832c01471016752f",
+      "feature": 32,
+      "length": 325
+    },
+    {
+      "name": "common-shaders-master/crt/WarBreeds-CRT-Suave.cgp",
+      "sha256": "8cc1dd3b0efbd0671e12253d8a5969f784ae86cbd971e5d11acdbb659dc9b1ee",
+      "feature": 32,
+      "length": 323
+    },
+    {
+      "name": "common-shaders-master/crt/shaders/crt-lottes.cg",
+      "sha256": "4dbd9a45ad9ffb741ae5527aad611538e6f67d824d0a94941018dd6bad7cd41f",
+      "feature": 32,
+      "length": 9934
+    },
+    {
+      "name": "common-shaders-master/include/blur-functions.h",
+      "sha256": "e9b40454dfeffb15ccc2edc0890c9fe3167420098474f6b04d7dc33ecfc149db",
+      "feature": 32,
+      "length": 109590
+    },
+    {
+      "name": "common-shaders-master/include/compat_input_struct.inc",
+      "sha256": "7429b1f6672549fdd5bc200669c839a34de3a0057fdfde73baac2883455f611d",
+      "feature": 32,
+      "length": 813
+    },
+    {
+      "name": "common-shaders-master/include/compat_macros.inc",
+      "sha256": "fca745e386616146d2061b086063d49532f0a5e9cb83d311490ac4843795dbd7",
+      "feature": 32,
+      "length": 2399
+    },
+    {
+      "name": "common-shaders-master/include/compat_orig_struct.inc",
+      "sha256": "f570de3fa46df72e009773feb77773e0adac93ad47aa9664e7df110e3ae8f682",
+      "feature": 32,
+      "length": 931
+    },
+    {
+      "name": "common-shaders-master/include/compat_prev_struct.inc",
+      "sha256": "9e4dfebe65b0201dee9f4bfaa0f18fe36fff8dd1d0b609b150a53fed71a95f20",
+      "feature": 32,
+      "length": 892
+    },
+    {
+      "name": "common-shaders-master/include/compat_vertex_in_out.inc",
+      "sha256": "6d4679a22706303e7a89551444321e4ab8f2f2d4338ddb93c1468ca1277185f6",
+      "feature": 32,
+      "length": 600
+    },
+    {
+      "name": "common-shaders-master/include/gamma-management.h",
+      "sha256": "37c8c217f7d26c8e5ed3b5e3cb7a9b101c6c0a04955664d2f77f19f3cb925e4c",
+      "feature": 32,
+      "length": 28081
+    },
+    {
+      "name": "common-shaders-master/include/quad-pixel-communication.h",
+      "sha256": "c0eaca4a3872fdca420c09f03f3d337a7b8f34d6d3c8787fe0d059d53792075f",
+      "feature": 32,
+      "length": 12252
+    },
+    {
+      "name": "common-shaders-master/include/special-functions.h",
+      "sha256": "9eb93642a5af8338e009f8049f64283d0ba46e02fb1ab4e404916e4a29cc4bc1",
+      "feature": 32,
+      "length": 18179
+    }
+  ],
+  "runtimeUrl": "https://sourceforge.net/p/dxwnd/discussion/general/thread/c59ab7d5ad/f4e3/5025/attachment/qt2.zip",
+  "runtimeArchiveSha256": "217d275fd664aaa96a15788f8deaefc124a4c663495537e5ae7824ab06ab0adb",
+  "runtime": [
+    {
+      "name": "cmgr32.dll",
+      "sha256": "9fc00aece0c9db38b7e7001d261a060567eb035a343f4d833e58fd163e80f9e4",
+      "length": 32768
+    },
+    {
+      "name": "cvid32.qtc",
+      "sha256": "72b9754464f846dcf92c2338ef9104c927fd259abc0f340b25d16d1af8d23fb5",
+      "length": 151040
+    },
+    {
+      "name": "dci32.qtc",
+      "sha256": "e0f2411c9a0344514bf1bade6d5fad783f02e049adeae78c5daecf425b595ae0",
+      "length": 24064
+    },
+    {
+      "name": "dhio32.qtc",
+      "sha256": "4352030c071820669bbdddbd2025f0f369e6d0453618743b567a8e54775a7fee",
+      "length": 38912
+    },
+    {
+      "name": "iv32qt32.qtc",
+      "sha256": "6c2fad310c35665584332d956044c0e1c80c772505cc7fe2295b3bb52e0ff53b",
+      "length": 83456
+    },
+    {
+      "name": "jpeg32.qtc",
+      "sha256": "35c3e43aa8f2b8f59f315e00f821a988c6ba303768f41f14469b41f562082158",
+      "length": 34816
+    },
+    {
+      "name": "mc32.qtc",
+      "sha256": "d5b94f481741514f05435cb6abe36572468a429461366e6b9fc985e42303df20",
+      "length": 128000
+    },
+    {
+      "name": "navg32.qtc",
+      "sha256": "8135fb867d3dee703fbd06cdca41f205072a82199c71a231b8501888126f9679",
+      "length": 35840
+    },
+    {
+      "name": "qtim32.dll",
+      "sha256": "dbbe7e208955c0173d2a41a8873d1ccdacdca96e42948f861768e1dde3afc77f",
+      "length": 345600
+    },
+    {
+      "name": "raw32.qtc",
+      "sha256": "e7b60f01838aa243961cbc47b4b835ef97d7484f239144580f7fe88c713fa6c9",
+      "length": 20480
+    },
+    {
+      "name": "rle32.qtc",
+      "sha256": "b87521c7a23540ab9125065d19d7805a496c67b2572397e4a59eb1770575a3de",
+      "length": 103936
+    },
+    {
+      "name": "rpza32.qtc",
+      "sha256": "2e03e7affdd62d1d0b0992c3460f6c335f675a9a5cb7cb7befef82b99cdf1b61",
+      "length": 229376
+    },
+    {
+      "name": "smc32.qtc",
+      "sha256": "04da19a596d455c25f0993c11c7801569441fa1c48a5d06fe2e1119324e7fb38",
+      "length": 165888
+    }
+  ],
+  "userValidation": "14/10/2026: usuario confirma peliculas y zoom; zoom tiene parpadeo negro al cambiar resolucion."
+}

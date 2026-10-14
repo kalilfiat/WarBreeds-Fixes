@@ -1,0 +1,17 @@
+/payload/
+/patches/
+/runtime/
+/dist/
+/WarBreedsFixes/
+/MODS/
+*.exe
+*.dll
+*.qtc
+*.obj
+*.pdb
+*.mov
+*.mhk
+*.sav
+*.dbg
+*Personal-Offline*
+__pycache__/

@@ -1,0 +1,7 @@
+{
+  "game_started": false,
+  "scope": "selected x86 gates; helper results mocked; two load bases",
+  "resource_preservation_variants": 24,
+  "hook_cases_passed": 344,
+  "ok": true
+}

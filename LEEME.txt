@@ -1,0 +1,78 @@
+WARBREEDS FIXES 1.0.0 - WINDOWS / EDICION STEAM VERIFICADA
+
+INSTALAR
+1. Extraer TODO el ZIP a una carpeta. No ejecutar desde dentro del ZIP.
+2. Cerrar el juego y abrir WarBreeds-Fixes.exe.
+3. Elegir la carpeta que contiene WARBREED.EXE y DATA.
+   En Steam: Propiedades > Archivos instalados > Explorar.
+4. Marcar solamente las mejoras deseadas y pulsar Instalar seleccion.
+5. Iniciar el juego normalmente desde Steam.
+No necesita Python, compiladores ni instalacion global de QuickTime.
+Usa .NET Framework de Windows. No pide privilegios de administrador.
+
+OPCIONES INDEPENDIENTES
+- 16:9: habilita 1920x1080. Se puede dejar desmarcado y conservar 4:3.
+- Cursor/indicador de movimiento: animaciones a 12 y 10 fps.
+- UI: hologramas y paneles decorativos a 12 fps.
+- Zoom con rueda: adelante 960x540, atras 1920x1080. Agranda tambien la UI.
+  Necesita seleccionar 16:9. Parpadeo negro breve conocido al cambiar modo.
+- Ampliar peliculas: preserva todo el contenido y proporciones originales.
+  Detecta escritorio principal al instalar; lienzo permitido hasta 4096 por
+  4096. En pantallas fuera de ese rango utiliza 1920x1080. Logo 4:3 y
+  cinematicas mas anchas que 16:9 conservan las franjas correspondientes.
+- CRT: DDrawCompat 0.7.0 y presets suave/marcado. Shift+F11 > DisplayFilter
+  permite cambiar filtro; Export guarda la seleccion para el proximo inicio.
+- Reproduccion de peliculas: dependencias QuickTime 2 locales. En el ZIP
+  Public, si faltan, se descarga el paquete registrado en THIRD-PARTY.txt y
+  se comprueban hashes antes de escribir. Se puede desmarcar para instalar
+  sin red. La copia Personal-Offline contiene esa dependencia.
+La ampliacion y reparacion de reproduccion son opciones distintas: sin
+QuickTime compatible, la ampliacion por si sola no hace aparecer peliculas.
+
+RESPALDO Y RESTAURACION
+El instalador guarda originales y estado en WarBreedsFixes, dentro del juego.
+Conservar esa carpeta: corresponde a ESA instalacion y permite restaurarla.
+Para deshacer, abrir el mismo instalador, elegir la carpeta y pulsar Restaurar.
+No borra partidas ni recursos del juego. Conserva preferencias ajenas y
+cambios posteriores en filtros cuando puede separarlos. Si un binario fue
+modificado por otro mod, se detiene para evitar sobrescribirlo.
+Los ajustes manuales de nuestros INI se archivan antes de retirarlos.
+Para cambiar la combinacion instalada, restaurar primero y volver a instalar.
+Ver estado comprueba instalacion y distingue ajustes de cambios de binarios.
+
+COMPATIBILIDAD
+Probado originalmente en la edicion Steam con WARBREED.EXE SHA256:
+0e0768693a62ba89fcd5f1fd56dfcda68206d32bc6d5b5c285792996115061e3
+El instalador rechaza otras versiones y ejecutables ya modificados.
+No instalar encima de nuestros paquetes anteriores por separado: restaurarlos
+primero o utilizar una instalacion limpia. Menus fallidos no se incluyen.
+No cambia velocidad de simulacion, afinidad de CPU, mapas, audio ni MOV.
+Sin 16:9, tampoco aplica ese parche al EXE ni cambia la resolucion guardada.
+Si el juego aun no creo prefs.dbg, elegir 1920x1080 en opciones al usar 16:9.
+La pantalla se detecta al instalar: si cambias de monitor, ajustar
+WarBreeds-Video.ini y SupportedResolutions, o restaurar y reinstalar.
+
+VALIDACION
+14/10/2026: el usuario confirma peliculas ampliadas y zoom funcionando.
+El zoom tiene el parpadeo descrito. Animaciones, 16:9 y CRT tambien confirmados.
+El empaquetado nuevo se verifica sobre copias, sin iniciar el juego: todas
+las combinaciones admitidas, integridad, instalacion/restauracion y rollback.
+Es la primera entrega comunitaria; no garantiza compatibilidad con otras
+ediciones, otros mods, todos los monitores o equipos. Guardar el ZIP original.
+
+PARA COMPARTIR
+Publicar el ZIP Public y SHA256SUMS.txt. No subir WarBreedsFixes, respaldos,
+tu carpeta MODS, saves, peliculas ni ejecutables originales/parchados del juego.
+README.md resume el proyecto; STEAM.txt contiene una publicacion preparada.
+Repositorio: https://github.com/kalilfiat/WarBreeds-Fixes
+Version: https://github.com/kalilfiat/WarBreeds-Fixes/releases/tag/v1.0.0
+El codigo del instalador y fuentes de parches se incluyen en source.
+
+LINEA DE COMANDOS (OPCIONAL)
+WarBreeds-Fixes.exe --game "C:\Games\WarBreeds" --action install --mask 31
+WarBreeds-Fixes.exe --game "C:\Games\WarBreeds" --action restore
+WarBreeds-Fixes.exe --game "C:\Games\WarBreeds" --action status
+Bits de --mask: 1=16:9, 2=cursor/aro, 4=UI, 8=zoom, 16=ampliar peliculas.
+Zoom requiere bit 1. --mask 6 instala solo los dos ajustes de animacion.
+CRT y QuickTime se activan por defecto; omitir con --no-crt / --no-quicktime.
+--offline impide descargas. --canvas 1920x1080 fuerza lienzo al instalar.

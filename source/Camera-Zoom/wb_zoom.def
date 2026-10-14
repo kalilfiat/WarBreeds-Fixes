@@ -1,0 +1,4 @@
+LIBRARY WBZoom
+EXPORTS
+    WBZoomPump=_WBZoomPump@0
+    WBZoomDecision=_WBZoomDecision@12

@@ -1,0 +1,4 @@
+LIBRARY WBAnim
+EXPORTS
+    WBAnimCursor=_WBAnimCursor@4
+    WBAnimMarker=_WBAnimMarker@0

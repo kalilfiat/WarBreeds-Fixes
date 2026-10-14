@@ -1,0 +1,7 @@
+LIBRARY WBVideo
+EXPORTS
+    WBVideoFit=_WBVideoFit@12
+    WBVideoCanvas=_WBVideoCanvas@4
+    WBVideoRestore=_WBVideoRestore@4
+    WBVideoScale=_WBVideoScale@4
+    WBVideoRect=_WBVideoRect@20

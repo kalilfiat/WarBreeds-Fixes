@@ -1,0 +1,2113 @@
+{
+  "game_started": false,
+  "variants": [
+    {
+      "mask": 0,
+      "delta_spans": 0,
+      "delta_bytes": 20,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll"
+      ],
+      "hooks": []
+    },
+    {
+      "mask": 1,
+      "delta_spans": 2,
+      "delta_bytes": 61,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll"
+      ],
+      "hooks": []
+    },
+    {
+      "mask": 2,
+      "delta_spans": 10,
+      "delta_bytes": 62646,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 3,
+      "delta_spans": 12,
+      "delta_bytes": 62687,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 4,
+      "delta_spans": 9,
+      "delta_bytes": 62636,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 5,
+      "delta_spans": 11,
+      "delta_bytes": 62677,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 6,
+      "delta_spans": 12,
+      "delta_bytes": 125179,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 7,
+      "delta_spans": 14,
+      "delta_bytes": 125220,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 9,
+      "delta_spans": 10,
+      "delta_bytes": 62662,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBZoom.dll"
+      ],
+      "hooks": [
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831248,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38140090",
+                "stub": 6025216,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1830916
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 11,
+      "delta_spans": 12,
+      "delta_bytes": 125203,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBZoom.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896804,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38150090",
+                "stub": 6090752,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1896452
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 13,
+      "delta_spans": 12,
+      "delta_bytes": 125195,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll",
+        "WBZoom.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896804,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38150090",
+                "stub": 6090752,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1896452
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 15,
+      "delta_spans": 14,
+      "delta_bytes": 187737,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll",
+        "WBZoom.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1961984,
+            "iat_rva": 1962360,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38160090",
+                "stub": 6156288,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1961988
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "mask": 16,
+      "delta_spans": 11,
+      "delta_bytes": 62663,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88414009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841400"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278614009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841400"
+              }
+            ],
+            "stub_va": 6025216,
+            "stub_size": 45,
+            "iat_rva": 1831596,
+            "relocations": [
+              1830925,
+              1831045,
+              1831125,
+              1831205
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6025344,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6025424,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6025504,
+            "restore_resume": 4680989,
+            "new_section_rva": 1830912
+          }
+        }
+      ]
+    },
+    {
+      "mask": 17,
+      "delta_spans": 13,
+      "delta_bytes": 62704,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88414009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841400"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278614009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841400"
+              }
+            ],
+            "stub_va": 6025216,
+            "stub_size": 45,
+            "iat_rva": 1831596,
+            "relocations": [
+              1830925,
+              1831045,
+              1831125,
+              1831205
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6025344,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6025424,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6025504,
+            "restore_resume": 4680989,
+            "new_section_rva": 1830912
+          }
+        }
+      ]
+    },
+    {
+      "mask": 18,
+      "delta_spans": 14,
+      "delta_bytes": 125206,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88415009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841500"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278615009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841500"
+              }
+            ],
+            "stub_va": 6090752,
+            "stub_size": 45,
+            "iat_rva": 1897152,
+            "relocations": [
+              1896461,
+              1896581,
+              1896661,
+              1896741
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6090880,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6090960,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6091040,
+            "restore_resume": 4680989,
+            "new_section_rva": 1896448
+          }
+        }
+      ]
+    },
+    {
+      "mask": 19,
+      "delta_spans": 16,
+      "delta_bytes": 125247,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88415009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841500"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278615009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841500"
+              }
+            ],
+            "stub_va": 6090752,
+            "stub_size": 45,
+            "iat_rva": 1897152,
+            "relocations": [
+              1896461,
+              1896581,
+              1896661,
+              1896741
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6090880,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6090960,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6091040,
+            "restore_resume": 4680989,
+            "new_section_rva": 1896448
+          }
+        }
+      ]
+    },
+    {
+      "mask": 20,
+      "delta_spans": 13,
+      "delta_bytes": 125196,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88415009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841500"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278615009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841500"
+              }
+            ],
+            "stub_va": 6090752,
+            "stub_size": 45,
+            "iat_rva": 1897152,
+            "relocations": [
+              1896461,
+              1896581,
+              1896661,
+              1896741
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6090880,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6090960,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6091040,
+            "restore_resume": 4680989,
+            "new_section_rva": 1896448
+          }
+        }
+      ]
+    },
+    {
+      "mask": 21,
+      "delta_spans": 15,
+      "delta_bytes": 125237,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88415009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841500"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278615009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841500"
+              }
+            ],
+            "stub_va": 6090752,
+            "stub_size": 45,
+            "iat_rva": 1897152,
+            "relocations": [
+              1896461,
+              1896581,
+              1896661,
+              1896741
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6090880,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6090960,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6091040,
+            "restore_resume": 4680989,
+            "new_section_rva": 1896448
+          }
+        }
+      ]
+    },
+    {
+      "mask": 22,
+      "delta_spans": 16,
+      "delta_bytes": 188252,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88416009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841600"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278616009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841600"
+              }
+            ],
+            "stub_va": 6156288,
+            "stub_size": 45,
+            "iat_rva": 1962708,
+            "relocations": [
+              1961997,
+              1962117,
+              1962197,
+              1962277
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6156416,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6156496,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6156576,
+            "restore_resume": 4680989,
+            "new_section_rva": 1961984
+          }
+        }
+      ]
+    },
+    {
+      "mask": 23,
+      "delta_spans": 18,
+      "delta_bytes": 188293,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88416009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841600"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278616009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841600"
+              }
+            ],
+            "stub_va": 6156288,
+            "stub_size": 45,
+            "iat_rva": 1962708,
+            "relocations": [
+              1961997,
+              1962117,
+              1962197,
+              1962277
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6156416,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6156496,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6156576,
+            "restore_resume": 4680989,
+            "new_section_rva": 1961984
+          }
+        }
+      ]
+    },
+    {
+      "mask": 25,
+      "delta_spans": 14,
+      "delta_bytes": 125222,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBZoom.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831248,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38140090",
+                "stub": 6025216,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1830916
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88415009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841500"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278615009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841500"
+              }
+            ],
+            "stub_va": 6090752,
+            "stub_size": 45,
+            "iat_rva": 1897152,
+            "relocations": [
+              1896461,
+              1896581,
+              1896661,
+              1896741
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6090880,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6090960,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6091040,
+            "restore_resume": 4680989,
+            "new_section_rva": 1896448
+          }
+        }
+      ]
+    },
+    {
+      "mask": 27,
+      "delta_spans": 16,
+      "delta_bytes": 188276,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBZoom.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896804,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38150090",
+                "stub": 6090752,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1896452
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88416009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841600"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278616009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841600"
+              }
+            ],
+            "stub_va": 6156288,
+            "stub_size": 45,
+            "iat_rva": 1962708,
+            "relocations": [
+              1961997,
+              1962117,
+              1962197,
+              1962277
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6156416,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6156496,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6156576,
+            "restore_resume": 4680989,
+            "new_section_rva": 1961984
+          }
+        }
+      ]
+    },
+    {
+      "mask": 29,
+      "delta_spans": 16,
+      "delta_bytes": 188268,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBUIAnim.dll",
+        "WBZoom.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1830912,
+            "iat_rva": 1831328,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57313009090",
+                "stub": 6025216,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84130090",
+                "stub": 6025296,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1830919,
+              1830999
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896804,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38150090",
+                "stub": 6090752,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1896452
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88416009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841600"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278616009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841600"
+              }
+            ],
+            "stub_va": 6156288,
+            "stub_size": 45,
+            "iat_rva": 1962708,
+            "relocations": [
+              1961997,
+              1962117,
+              1962197,
+              1962277
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6156416,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6156496,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6156576,
+            "restore_resume": 4680989,
+            "new_section_rva": 1961984
+          }
+        }
+      ]
+    },
+    {
+      "mask": 31,
+      "delta_spans": 18,
+      "delta_bytes": 250809,
+      "imports": [
+        "_INMM.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "ADVAPI32.dll",
+        "ole32.dll",
+        "WARBREED",
+        "DPLAYX.dll",
+        "WSOCK32.dll",
+        "WBAnim.dll",
+        "WBUIAnim.dll",
+        "WBZoom.dll",
+        "WBVideo.dll"
+      ],
+      "hooks": [
+        {
+          "module": "animation",
+          "code": {
+            "new_section_rva": 1830912,
+            "raw_offset": 1355264,
+            "payload_size": 62068,
+            "cursor_hook_va": 6025216,
+            "marker_hook_va": 6025248,
+            "cursor_hook_size": 24,
+            "marker_hook_size": 21,
+            "iat_rva": 1831252,
+            "relocation_operands": [
+              13,
+              36
+            ],
+            "original_import_descriptor_count": 9,
+            "patches": [
+              {
+                "va": 4700028,
+                "file_offset": 502652,
+                "before": "8a8e94010000fec1",
+                "after": "e87f381400909090"
+              },
+              {
+                "va": 4482560,
+                "file_offset": 285184,
+                "before": "e8aba20200",
+                "after": "e81b8a1700"
+              },
+              {
+                "va": 4704770,
+                "file_offset": 507394,
+                "before": "e8a93effff",
+                "after": "e819261400"
+              }
+            ]
+          }
+        },
+        {
+          "module": "ui",
+          "code": {
+            "new_section_rva": 1896448,
+            "iat_rva": 1896884,
+            "patches": [
+              {
+                "site": 4750342,
+                "offset": 552966,
+                "before": "8b4e38668b7e5c",
+                "after": "e9f57314009090",
+                "stub": 6090752,
+                "stub_size": 36,
+                "channel": 0,
+                "resume": 4750349,
+                "skip": 4750666
+              },
+              {
+                "site": 4746285,
+                "offset": 548909,
+                "before": "8b86c8000000",
+                "after": "e91e84140090",
+                "stub": 6090832,
+                "stub_size": 35,
+                "channel": 1,
+                "resume": 4746291,
+                "skip": 4746329
+              }
+            ],
+            "relocations": [
+              1896455,
+              1896535
+            ]
+          }
+        },
+        {
+          "module": "zoom",
+          "code": {
+            "new_section_rva": 1961984,
+            "iat_rva": 1962360,
+            "patches": [
+              {
+                "site": 4700016,
+                "offset": 502640,
+                "before": "83ec24568bf1",
+                "after": "e98b38160090",
+                "stub": 6156288,
+                "stub_size": 21,
+                "resume": 4700022
+              }
+            ],
+            "relocations": [
+              1961988
+            ]
+          }
+        },
+        {
+          "module": "video",
+          "code": {
+            "patches": [
+              {
+                "site": 4680515,
+                "offset": 483139,
+                "before": "8b7ddc0fbf4628",
+                "after": "e9b88417009090"
+              },
+              {
+                "site": 4680645,
+                "offset": 483269,
+                "before": "8b463885c0",
+                "after": "e9b6841700"
+              },
+              {
+                "site": 4680356,
+                "offset": 482980,
+                "before": "6a00e825180500",
+                "after": "e9278617009090"
+              },
+              {
+                "site": 4680984,
+                "offset": 483608,
+                "before": "66895e3e5f",
+                "after": "e903841700"
+              }
+            ],
+            "stub_va": 6221824,
+            "stub_size": 45,
+            "iat_rva": 2028264,
+            "relocations": [
+              2027533,
+              2027653,
+              2027733,
+              2027813
+            ],
+            "normal_resume": 4680522,
+            "fitted_resume": 4680618,
+            "scale_stub_va": 6221952,
+            "scale_resume": 4680650,
+            "canvas_stub_va": 6222032,
+            "canvas_resume": 4680363,
+            "restore_stub_va": 6222112,
+            "restore_resume": 4680989,
+            "new_section_rva": 2027520
+          }
+        }
+      ]
+    }
+  ],
+  "canonical_full_stack_reproduced": true,
+  "no_game_executable_distributed": true
+}
